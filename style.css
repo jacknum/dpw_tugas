@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(210, 210, 210);
+}
 .top-header{
     background-color: rgb(0, 102, 254);
     color: white;
@@ -6,10 +9,16 @@
     float: right;
     width: 30%;
     background-color: rgb(0, 102, 254);
-    padding-top: 60px;
+    padding-top: 30px;
 }
 .logo{
-    margin: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    float: left;
+    font-size: x-large;
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 20px;
 }
 .row::after{
     content: "";
@@ -21,7 +30,7 @@
     min-height: 300px;
     background-color: white;
     padding: 40px 30px;
-    margin: 50px;
+    margin: 75px;
     float: right;
     border-radius: 10px;
 }
@@ -38,5 +47,22 @@
     width: 100%;
     background-color: white;
     color: black;
-    text-align: right;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: larger;
+    padding: 25px;
+    font-weight: 900;
   }
+.paragraf{
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: rgba(0, 120, 120, 0.911);
+    float: left;
+}
+.paragraf .p2{
+    color: rgb(0, 98, 255);
+    font-size: 50px;
+}
