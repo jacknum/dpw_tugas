@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mainpage</title>
+    <title>dashboard</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    
+    <div class="top-header row">
+        <div class="logo">
+            <p>ZIYADA</p>
+        </div>
+    </div>
+
+    <div class="table">
+        <div class="column">
+            <div class="label">
+                <label for="Nama">Nama</label><br>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Masukkan Nama"><br>
+            </div>
+            <div class="label">
+                <label for="Tempat tinggal">Tempat tinggal</label><br>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Masukkan Tempat tinggal"><br>
+            </div>
+            <div class="label">
+                <label for="Tanggal lahir">Tanggal lahir</label><br>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Masukkan Tanggal lahir"><br>
+            </div>
+            <div class="box">
+                <form>
+                    <label for="Agama">Agama</label>
+                    <select name="Agama">
+                        <option value="1">Islam</option>
+                        <option value="2">Kristen</option>
+                        <option value="3">Katholik</option>
+                        <option value="4">Hindu</option>
+                        <option value="5">Buddha</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <br>
+        <div class="checkbox">
+            <h3>Hobi</h3>
+            <input type="checkbox" id="hobi1" name="hobi1" value="Game">
+            <label for="hobi1"> Bermain Game</label><br>
+            <input type="checkbox" id="hobi2" name="hobi2" value="Nonton">
+            <label for="hobi2"> Menonton film</label><br>
+            <input type="checkbox" id="hobi3" name="hobi3" value="Mendaki">
+            <label for="hobi3"> Mendaki Gunung</label><br>
+            <input type="checkbox" id="hobi4" name="hobi4" value="Traveling">
+            <label for="hobi4"> Traveling</label><br>
+            <input type="checkbox" id="hobi5" name="hobi5" value="Membaca">
+            <label for="hobi5"> Membaca Buku</label><br>
+            <input type="checkbox" id="hobi6" name="hobi6" value="Olahraga">
+            <label for="hobi6"> Olahraga</label><br>
+            <input type="checkbox" id="hobi7" name="hobi7" value="Fotografi">
+            <label for="hobi7"> Fotografi</label><br>
+            <input type="checkbox" id="hobi8" name="hobi8" value="Musik">
+            <label for="hobi8"> Mendengarkan Musik</label><br>
+            <input type="checkbox" id="lainnya" name="lainnya" value="Lainnya">
+            <label for="lainy">Lainnya</label><br>
+            <input type="text">
+        </div>
+
+        <div class="button">
+            <button type="button" class="btn-primary">Submit</button>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <a href="https://www.instagram.com/szk_jack/">@szk_jack</a>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
